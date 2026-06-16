@@ -29,6 +29,6 @@ jobs:
         with:    
           path: ./artifacts
       - name: view the contents in file
-        run: cat ./artifacts/hello.txt
+        run: cat ./artifacts/hello-artifact/hello.txt
         
   
